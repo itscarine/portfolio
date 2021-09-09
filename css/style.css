@@ -5,13 +5,16 @@ Secondary Color (Charcoal): #1F1F1F;
 */
 
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: #F7F6F1;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.6;
-    text-align: center;
     color: #1F1F1F
   }
 
@@ -27,47 +30,48 @@ body {
       font-weight: 300;
   }
   h3 {
-      font-size: 1.35em;
-      font-weight: 300;
+      font-size: 1.25em;
+      font-weight: 400;
   }
   h4{
-      font-size: 1.15em;
-      font-weight: 300;
+      font-size: .85em;
+      font-weight: 400;
   }
   h5{
       font-family: 'Italiana', serif;
       font-size: 1.65em;
       font-weight: 400;
-
   }
+  h6 {
+    font-size: 1.25em;
+    font-weight: 400;
+    color: #F75759;
+}
+
   img {
       width: 100%;
   }
   a {
     color: #1F1F1F;
-    text-decoration: none; /* No underlining */
-  }
-  a:hover {
-    color: #5C5C5C;
-    text-decoration: none; /* No underlining */
-  }
-
-  a:active { /* selected link */
-    color: #3684FE;
+    text-decoration: underline; /* underlining */
   }
   a:hover,
 a:focus {
   color: #5C5C5C;
   text-decoration: none;
 }
-.text.underline {
+  a.nav {
     color: #1F1F1F;
-    text-decoration: underline;
+    text-decoration: none; /* No underlining */
+    display: inline-block;
+    width: 100%;
   }
+
 .button{
     display: inline-block;
     background-color: #1F1F1F;
     color: #F7F6F1;
+    text-decoration: none;
     font-weight: 500;
     font-size: 0.85em;
     padding-left: 30px;
@@ -91,4 +95,69 @@ a:focus {
 .button.contact:hover{
     background-color:#3684FE;
     color:#F7F6F1;
+}
+
+/* Layout Styling */
+.container {
+    padding: 0 15px;
+}
+.row {
+    margin: 25px 0;
+    padding-bottom: 25px;
+}
+.center{
+    text-align:center;
+}
+.left{
+    text-align:left;
+}
+.right{
+    text-align:right;
+}
+.logo {
+    max-width: 200px;
+}
+header {
+    background-color:#FCFBF6;
+    text-align: left;
+    width:100%;
+    padding: 20px 0;
+    position: fixed;
+}
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+nav > ul > li {
+    display: inline-block;
+}
+nav > ul > li > a {
+    padding: 0 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 500;
+    color: #1F1F1F;
+}
+#hero h1 {
+    background-color: #F7F6F1;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+main {
+    padding-top: 155.66px;
+}
+footer {
+    background-color:#FCFBF6;
+    text-align: center;
+    width:100%;
+    padding: 20px 0;
+}
+.socials {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    max-width: 35px;
 }
