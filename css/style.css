@@ -359,7 +359,10 @@ Large devices (1024px and larger)
         margin-left: auto;
         margin-right: auto;
     }
-    
+    .socials {
+        max-width: 25px;
+    }
+
 }
 /* ==============================
 X-large devices (1440px and larger)
