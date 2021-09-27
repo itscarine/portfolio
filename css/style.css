@@ -162,13 +162,13 @@ nav > ul > li > a {
 }
 #hero h1 {
     background-color: #F7F6F1;
-    padding: 20px 20px;
+    padding: 20px 40px;
     display: inline-block;
     width: 100%;
     margin: 0;
 }
 #hero h3 {
-    padding: 20px;
+    padding: 20px 40px;
     margin-top: 0;
     margin-bottom: 40px;
     font-weight: 300;
@@ -320,7 +320,7 @@ Medium devices (640px and larger)
         margin-top: 0;
     }
     .logo {
-        margin-left: 15px;
+        margin-left: 40px;
         margin-top: 20px;
         float: left;
     }
