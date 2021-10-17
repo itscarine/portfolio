@@ -225,7 +225,7 @@ padding: 10px 0;
     font-weight: 300;
 }
 main {
-    padding-top: 155.66px;
+    padding-top: 99px;
 }
 #about h4 {
     margin: 0;
@@ -377,12 +377,8 @@ Medium devices (640px and larger)
     }
     nav {
         width: auto;
-        float: right;
         margin-top: 0;
     } 
-    main {
-        padding-top: 99px;
-    }
     body {
         font-size: 18px;
     }
