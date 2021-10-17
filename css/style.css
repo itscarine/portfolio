@@ -366,9 +366,6 @@ Medium devices (640px and larger)
     h3 {
         margin-top: 0;
     }
-    header {
-        padding-bottom: 20px;
-    }
     .logo {
         margin-top: 10px;
         margin-left: 40px;
@@ -376,7 +373,7 @@ Medium devices (640px and larger)
         float: left;
     }
     nav {
-        width: auto;
+        width: 100%;
         margin-top: 0;
     } 
     body {
@@ -407,7 +404,10 @@ Large devices (1024px and larger)
 @media only screen and (min-width: 1024px) {
     header {
         text-align: unset;
-        padding: 25px 0;
+        padding: 25px 0 20px 0;
+    }
+    nav {
+        float: right;
     }
     nav > ul > li {
         display: inline-block;
