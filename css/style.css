@@ -366,8 +366,11 @@ Medium devices (640px and larger)
     h3 {
         margin-top: 0;
     }
+    header {
+        padding-bottom: 20px;
+    }
     .logo {
-        margin-top: 5px;
+        margin-top: 10px;
         margin-left: 40px;
         padding: 6px;
         float: left;
