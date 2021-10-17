@@ -425,6 +425,9 @@ Large devices (1024px and larger)
     .button.contact.menu {
         margin: 0 40px 0 20px;
     } 
+    main {
+        padding-top: 150px;
+    }
     .col-lg-7 {
         width: 58%;
     }
