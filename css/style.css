@@ -408,6 +408,7 @@ Large devices (1024px and larger)
     }
     nav {
         float: right;
+        width: auto;
     }
     nav > ul > li {
         display: inline-block;
