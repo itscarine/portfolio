@@ -101,21 +101,31 @@ img {
     margin-right: auto;
     width: 50%;
   }
-  a {
-    color: #1F1F1F;
-    text-decoration: underline; /* underlining */
-    font-size: 16px;
-  }
-  a:hover,
+a {
+color: #1F1F1F;
+text-decoration: underline; /* underlining */
+font-size: 16px;
+}
 a:focus {
-  color: #5C5C5C;
+  color: #1F1F1F;
   text-decoration: none;
 }
+a:hover {
+    color: #707070;
+    opacity: 0.3;
+    transition: 0.4s opacity;
+}
+a:active {
+    color: #1F1F1F;
+}
 .anav {
-color: #1F1F1F;
+color: #707070;
 text-decoration: none; /* No underlining */
 display: inline-block;
 width: 100%;
+}
+.anav.current {
+    color: #1F1F1F;
 }
 
 /* Layout Styling */
