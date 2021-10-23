@@ -34,8 +34,8 @@ body {
   }
   h2 {
     font-size: 1.75em;
-    font-weight: 300;
-    padding: 20px 40px;
+    font-weight: 400;
+    padding: 50px 40px;
     margin: 0;
     }
   h3 {
@@ -64,8 +64,9 @@ body {
     font-style:italic;
     text-align:center;
     font-weight: 300;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 20px;
 }  
 .bold {
     font-weight: bold;
@@ -261,6 +262,12 @@ nav > ul > li > a {
     width: 100%;
     margin: 0;
 }
+#hero h2 {
+    background-color: #F7F6F1;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
 #hero h3 {
     margin: 0;
 }
@@ -374,7 +381,9 @@ Medium devices (640px and larger)
     body {
         font-size: 18px;
     }
-
+    a {
+        font-size: 18px;
+    }
     h3 {
         padding: 0;
     }
@@ -402,6 +411,9 @@ Medium devices (640px and larger)
         padding: 100px 0;
         text-align:left;
     }
+    #about .row {
+        padding: 0;
+    }
     p {
         padding-bottom: 0;
     }
@@ -410,6 +422,9 @@ Medium devices (640px and larger)
     }
     .right {
         float:right;
+    }
+    #hero h2 {
+        padding: 50px 200px 0 100px;
     }
     #head {
         max-width: 700px;
@@ -499,6 +514,9 @@ Large devices (1024px and larger)
     .button.contact.menu {
         margin: 0 40px 0 20px;
         width: auto;
+    }
+    #hero h2 {
+        padding: 70px 300px 0 100px;
     }
     main {
         padding-top: 150px;
