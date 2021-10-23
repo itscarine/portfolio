@@ -147,13 +147,12 @@ width: 100%;
 .logo {
     max-width: 170px;
     float: left;
-    padding-left: 40px;
-    margin-top: 5px;
+    padding: 30px 0 0 20px;
 }
 header {
     background-color:#FCFBF6;
     width:100%;
-    padding: 20px 0 0 0;
+    padding: 10px 0 10px 0;
     position: fixed;
     z-index: 10;
 }
@@ -194,7 +193,7 @@ nav > ul > li > a {
     right: 0;
     top: 2px;
     font-size: 20px;
-    padding-right: 32px;
+    padding: 20px;
 }
 .navtoggle.responsive li:last-child  {
     padding: 0 0 10px;
@@ -378,18 +377,15 @@ Medium devices (640px and larger)
     #about h3 {
         margin-top: 0;
     }
-    .logo {
-        margin-top: 5px;
-        margin-left: 40px;
-        padding: 6px;
-        float: left;
-    }
     nav {
         width: 100%;
         margin-top: 0;
     }
     .navtoggle.responsive nav {
         padding: 0;
+    }
+    .navtoggle li .icon {
+        padding-right: 20px;
     } 
     .row {
         margin: 80px 0;
@@ -464,6 +460,9 @@ Large devices (1024px and larger)
     }
     h3 {
         font-size: 24px;
+    }
+    .logo {
+        padding: 5px 0 5px 0;
     }
     nav {
         float: right;
