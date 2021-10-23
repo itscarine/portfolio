@@ -45,11 +45,13 @@ body {
       margin: 0;
       }
   h4{
-      font-size: 1.23em;
+      font-size: 14px;
       padding-top: 10px;
       padding-bottom: 0;
       margin: 0;
-      font-weight: 500;
+      font-weight: 400;
+      text-transform: uppercase;
+      color:#F75759;
   }
   h5{
       font-family: 'Italiana', serif;
@@ -217,16 +219,6 @@ nav > ul > li > a {
     text-decoration: none;
     color: #FCFBF6;
 }
-.button.contact{
-    background-color: #3684FE;
-    color:#FCFBF6;
-    text-transform: uppercase;
-    border: 2px solid #3684FE;
-}
-.button.contact:hover{
-    background-color:#3684FE;
-    color:#FCFBF6;
-}
 .button.contact.menu {
     width: 168px;
     display: inline-block;
@@ -274,10 +266,6 @@ nav > ul > li > a {
 main {
     padding-top: 99px;
 }
-#about h4 {
-    margin: 0;
-    font-weight: 300;
-}
 #about h3 {
     margin-top: 0px;
 }
@@ -287,12 +275,6 @@ main {
 #head h3 {
     padding: 0;
     margin-bottom: 30px;
-}
-#head h4 {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    color:#F75759;
 }
 #head p {
     margin-bottom: 30px;
@@ -393,9 +375,6 @@ Medium devices (640px and larger)
     h3 {
         padding: 0;
     }
-    h4 {
-        padding: 0;
-    }
     #about h3 {
         margin-top: 0;
     }
@@ -440,12 +419,6 @@ Medium devices (640px and larger)
     #head h3 {
         padding-right: 0;
         margin-right: 10px;
-    }
-    #head h4 {
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-        color:#F75759;
     }
     #head p {
         padding-right: 0;
@@ -518,7 +491,6 @@ Large devices (1024px and larger)
         max-width: 3000px;
         background-color:#FCFBF6;
     }
-   
     .row {
         margin: 100px 0;
     }    
@@ -544,12 +516,6 @@ Large devices (1024px and larger)
     #head h3 {
         padding-top: 70px;
         margin-right: 50px;
-    }
-    #head h4 {
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 400;
-        color:#F75759;
     }
     #head p {
         padding-right: 0;
