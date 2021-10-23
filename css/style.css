@@ -318,6 +318,12 @@ footer {
     max-width: 40px;
     margin: 10px 5px 10px 5px;
 }
+.tools {
+    width: auto;
+    height: 32px;
+    padding-top: 5px;
+    margin: 0 20px;
+}
 footer ul {
     list-style-type: none;
     padding: 0;  
@@ -449,6 +455,11 @@ Medium devices (640px and larger)
     #head img {
         margin-top: 70px;
         margin-left: 10px;
+    }
+    .tools {
+        width: auto;
+        height: 40px;
+        padding-top: 10px;
     }
     .col-md-8 {
         width: 66.67%;
