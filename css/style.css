@@ -27,23 +27,25 @@ body {
       line-height: 1.4;
   }
   h1 {
-      font-size: 2.75em;
-      font-weight: 300;
-      padding: 20px 40px;
-      margin: 0;
-  }
-  h2 {
     font-size: 1.75em;
     font-weight: 400;
-    padding: 50px 40px;
+    padding: 50px 40px 20px 40px;
     margin: 0;
-    }
+  }
+  h2 {
+    font-size: 21px;
+    font-weight: 400;
+    padding: 20px 40px 0px 0px;
+    margin: 0;
+  }
   h3 {
-      font-size: 21px;
-      font-weight: 400;
-      padding: 20px 40px 0px 0px;
-      margin: 0;
-      }
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0px 40px;
+    color: 707070;
+    opacity: 0.6;
+    margin: 0;
+  }
   h4{
       font-size: 14px;
       padding-top: 10px;
@@ -136,7 +138,7 @@ width: 100%;
     padding: 0;
 }
 .row {
-    margin: 25px 0;
+    margin: 0;
     padding: 50px 20px;
 }
 .row::after {
@@ -254,24 +256,18 @@ nav > ul > li > a {
     margin: 0;
 }
 #hero h2 {
-    background-color: #F7F6F1;
-    display: inline-block;
-    width: 100%;
-    margin: 0;
-}
-#hero h3 {
     margin: 0;
 }
 main {
     padding-top: 99px;
 }
-#about h3 {
+#about h2 {
     margin-top: 0px;
 }
 #head .row {
-    padding: 20px;
+    padding: 50px 20px;
 }
-#head h3 {
+#head h2 {
     padding: 0;
     margin-bottom: 30px;
 }
@@ -371,11 +367,17 @@ Medium devices (640px and larger)
     a {
         font-size: 18px;
     }
-    h3 {
+    h1 {
+        padding: 30px 200px 10px 100px;
+    }
+    h2 {
         padding: 0;
     }
-    #about h3 {
+    #about h2 {
         margin-top: 0;
+    }
+    h3 {
+        padding: 10px 200px 10px 100px;
     }
     nav {
         width: 100%;
@@ -388,12 +390,12 @@ Medium devices (640px and larger)
         padding-right: 20px;
     } 
     .row {
-        margin: 80px 0;
-        padding: 100px 0;
+        margin: 0;
+        padding: 60px 0;
         text-align:left;
     }
-    #about .row {
-        padding: 0;
+    #head .row {
+        padding: 100px 0;
     }
     p {
         padding-bottom: 0;
@@ -404,15 +406,13 @@ Medium devices (640px and larger)
     .right {
         float:right;
     }
-    #hero h2 {
-        padding: 50px 200px 0 100px;
-    }
+
     #head {
         max-width: 700px;
         margin-left: auto;
         margin-right: auto;
     } 
-    #head h3 {
+    #head h2 {
         padding-right: 0;
         margin-right: 10px;
     }
@@ -458,8 +458,14 @@ Large devices (1024px and larger)
         text-align: unset;
         padding: 25px 0 20px 0;
     }
-    h3 {
+    h1 {
+        padding: 30px 300px 20px 100px;
+    }
+    h2 {
         font-size: 24px;
+    }
+    h3 {
+        padding: 10px 100px 10px 100px;
     }
     .logo {
         padding: 6px 0 6px 20px;
@@ -489,16 +495,13 @@ Large devices (1024px and larger)
     .background-sand {
         max-width: 3000px;
         background-color:#FCFBF6;
-    }
-    .row {
-        margin: 100px 0;
-    }    
+    }   
     .button.contact.menu {
         margin: 0 40px 0 20px;
         width: auto;
     }
-    #hero h2 {
-        padding: 70px 300px 0 100px;
+    #head .row {
+        padding: 30px 0 100px 0;
     }
     main {
         padding-top: 150px;
@@ -508,11 +511,7 @@ Large devices (1024px and larger)
         margin-left: auto;
         margin-right: auto;
     }
-    #head .row {
-        margin: 0;
-        padding: 0;
-    }
-    #head h3 {
+    #head h2 {
         padding-top: 70px;
         margin-right: 50px;
     }
