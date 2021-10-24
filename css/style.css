@@ -64,6 +64,14 @@ body {
   p {
       padding-bottom: 10px;
   }
+  .dot {
+    height: 35px;
+    width: 35px;
+    background-color: #F75759;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 3px 8px 5px 13px;
+    }
 .quote {
     font-style:italic;
     text-align:center;
@@ -85,7 +93,7 @@ body {
     text-decoration-line: underline;
     text-decoration-style: solid;
     text-decoration-color: #1F1F1F;
-    text-decoration-thickness: 4px;
+    text-decoration-thickness: 2px;
 }
 .copyright {
     font-size: 0.8em;
@@ -182,9 +190,6 @@ nav > ul > li > a {
     text-decoration: none;
     font-weight: 500;
     color: #1F1F1F;
-}
-.bullet {
-    list-style-type:circle;
 }
 .navtoggle li:not(:last-child) {
     display: none;
@@ -283,7 +288,6 @@ main {
 #head p {
     margin-bottom: 30px;
 }
-
 #head img {
     margin-top: 40px;
 }
@@ -504,7 +508,8 @@ Large devices (1024px and larger)
     .background-sand {
         max-width: 3000px;
         background-color:#FCFBF6;
-    }   
+    }
+
     .button.contact.menu {
         margin: 0 40px 0 20px;
         width: auto;
