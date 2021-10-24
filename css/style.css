@@ -35,13 +35,13 @@ body {
   h2 {
     font-size: 21px;
     font-weight: 400;
-    padding: 20px 40px 0px 0px;
+    padding: 20px 0;
     margin: 0;
   }
   h3 {
     font-size: 20px;
     font-weight: 400;
-    padding: 0px 40px;
+    padding: 0px 40px 40px 40px ;
     color: 707070;
     opacity: 0.6;
     margin: 0;
@@ -80,6 +80,12 @@ body {
 }
 .uppercase {
     text-transform: uppercase;
+}
+.underline {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #1F1F1F;
+    text-decoration-thickness: 4px;
 }
 .copyright {
     font-size: 0.8em;
@@ -391,7 +397,7 @@ Medium devices (640px and larger)
     } 
     .row {
         margin: 0;
-        padding: 60px 0;
+        padding: 60px 20px 60px 20px;
         text-align:left;
     }
     #head .row {
