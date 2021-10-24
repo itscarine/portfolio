@@ -183,6 +183,9 @@ nav > ul > li > a {
     font-weight: 500;
     color: #1F1F1F;
 }
+.bullet {
+    list-style-type:circle;
+}
 .navtoggle li:not(:last-child) {
     display: none;
 }
