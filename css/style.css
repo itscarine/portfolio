@@ -56,7 +56,9 @@ body {
       color:#F75759;
   }
   h5{
-      font-family: 'Italiana', serif;
+    padding: 100px 0 0 0;
+    margin: 0;  
+    font-family: 'Italiana', serif;
       font-size: 1.65em;
       font-weight: 300;
       margin: 20px;
@@ -96,6 +98,8 @@ body {
     text-decoration-thickness: 2px;
 }
 .copyright {
+    padding-top: 180px;
+    margin: 0;
     font-size: 0.8em;
 }
 .watermelon {
@@ -150,6 +154,9 @@ width: 100%;
 /* Layout Styling */
 .container {
     padding: 0;
+}
+#contact .container {
+    padding: 100px 0 20px 0;
 }
 .row {
     margin: 0;
@@ -377,6 +384,12 @@ Medium devices (640px and larger)
     body {
         font-size: 18px;
     }
+    #contact .container {
+        padding: 250px 0 20px 0;
+    }
+    .copyright {
+        padding-top: 250px;
+    }
     a {
         font-size: 18px;
     }
@@ -471,6 +484,17 @@ Large devices (1024px and larger)
         text-align: unset;
         padding: 25px 0 20px 0;
     }
+    .container {
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #contact .container {
+        padding: 200px 0 20px 0;
+    }
+    .copyright {
+        padding-top: 200px;
+    }
     h1 {
         padding: 30px 300px 20px 100px;
     }
@@ -558,11 +582,6 @@ Large devices (1024px and larger)
     }
     .col-lg-3 {
         width: 25%;
-    }
-    .container {
-        max-width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
     }
     .socials {
         margin: 0px 10px 10px 10px;
