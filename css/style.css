@@ -124,6 +124,9 @@ img {
     margin-right: auto;
     width: 50%;
   }
+.right {
+    align-items: right;
+}
 a {
 color: #1F1F1F;
 text-decoration: underline; /* underlining */
