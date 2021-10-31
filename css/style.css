@@ -164,6 +164,10 @@ a:active {
   margin: 0;
   padding: 50px 20px;
 }
+.row-pb-0 {
+  margin: 0;
+  padding: 50px 20px 0;
+}
 .row::after {
   content: "";
   clear: both;
@@ -431,6 +435,10 @@ Medium devices (640px and larger)
     padding: 60px 20px 60px 20px;
     text-align: left;
   }
+  .row-pb-0 {
+    margin: 0;
+    padding: 80px 20px 0 20px;
+  }
   #head .row {
     padding: 100px 0;
   }
@@ -548,6 +556,10 @@ Large devices (1024px and larger)
   .button.contact.menu {
     margin: 0 40px 0 20px;
     width: auto;
+  }
+  .row-pb-0 {
+    margin: 0;
+    padding: 100px 20px 0 20px;
   }
   #head .row {
     padding: 30px 0 100px 0;
