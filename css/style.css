@@ -35,8 +35,13 @@ h1 {
   margin: 0;
 }
 #hero h1 {
-  padding: 50px 40px 20px 40px;
+  padding: 20px 40px 20px 40px;
   margin: 0;
+  display: inline-block;
+  width: 100%;
+}
+#about-hero h1 {
+  padding: 50px 20px 0px 20px;
 }
 h2 {
   font-size: 21px;
@@ -51,6 +56,9 @@ h3 {
   color: #707070;
   opacity: 0.6;
   margin: 0;
+}
+#hero h3 {
+  padding: 0 40px;
 }
 h4 {
   font-size: 14px;
@@ -123,6 +131,12 @@ p {
 img {
   width: 100%;
   padding: 16px 0;
+}
+#hero img {
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  margin: 0 40px;
 }
 .center {
   display: block;
@@ -289,12 +303,7 @@ nav > ul > li > a {
 #hero span {
   display: block;
 }
-#hero h1 {
-  background-color: #f7f6f1;
-  display: inline-block;
-  width: 100%;
-  margin: 0;
-}
+
 #hero h2 {
   margin: 0;
 }
@@ -424,8 +433,18 @@ Medium devices (640px and larger)
     padding: 0;
   }
   #hero h1 {
-    padding: 30px 130px 10px 100px;
+    padding: 40px 0px 10px 70px;
   }
+  #about-hero h1 {
+    padding: 50px 150px 0px 150px;
+  }
+  #hero img {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 0 0 0 60px;
+  }
+
   h2 {
     padding: 0;
   }
@@ -434,6 +453,9 @@ Medium devices (640px and larger)
   }
   h3 {
     padding: 10px 200px 10px 100px;
+  }
+  #hero h3 {
+    padding: 10px 0 10px 70px;
   }
   nav {
     width: 100%;
@@ -498,8 +520,15 @@ Medium devices (640px and larger)
     height: 40px;
     padding-top: 10px;
   }
+  .img-car {
+    height: 50px;
+    width: 50px;
+  }
   .col-md-12 {
     width: 100%;
+  }
+  .col-md-10 {
+    width: 84%;
   }
   .col-md-8 {
     width: 66.67%;
@@ -516,7 +545,9 @@ Medium devices (640px and larger)
   .col-md-4 {
     width: 33.33%;
   }
-
+  .col-md-2 {
+    width: 16%;
+  }
   .margin-bottom {
     margin-bottom: 0;
   }
@@ -544,13 +575,25 @@ Large devices (1024px and larger)
     padding: 0;
   }
   #hero h1 {
-    padding: 30px 300px 20px 100px;
+    padding: 40px 80px 20px 60px;
+  }
+  #about-hero h1 {
+    padding: 40px 150px 50px 150px;
+  }
+  #hero img {
+    height: 100px;
+    width: 100px;
+    padding: 0;
+    margin: 0 0 0 110px;
   }
   h2 {
     font-size: 24px;
   }
   h3 {
     padding: 10px 100px 10px 100px;
+  }
+  #hero h3 {
+    padding: 10px 100px 10px 60px;
   }
   .logo {
     padding: 6px 0 6px 20px;
