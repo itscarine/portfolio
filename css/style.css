@@ -70,7 +70,7 @@ h4 {
   color: #f75759;
 }
 h5 {
-  padding: 100px 0 0 0;
+  padding: 10px 0 0 0;
   margin: 0;
   font-family: "Italiana", serif;
   font-size: 1.65em;
@@ -124,6 +124,12 @@ p {
 }
 .sand {
   background-color: #fcfbf6;
+}
+.txt-light {
+  color: #f7f6f1;
+}
+.bg-dark {
+  background-color: #1f1f1f;
 }
 .margin-bottom {
   margin-bottom: 20px;
@@ -336,12 +342,19 @@ footer {
   width: 100%;
   padding: 20px 0;
 }
+#contact img {
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  margin: 0 50px;
+}
 .socials {
   padding: 0;
   text-align: center;
   display: inline-block;
   max-width: 40px;
   margin: 10px 5px 10px 5px;
+  color: #f7f6f1;
 }
 .tools {
   width: auto;
