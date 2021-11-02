@@ -53,7 +53,7 @@ h3 {
   font-size: 20px;
   font-weight: 400;
   padding: 0px 40px 40px 40px;
-  color: #707070;
+  color: grey;
   opacity: 0.6;
   margin: 0;
 }
@@ -67,7 +67,7 @@ h4 {
   margin: 0;
   font-weight: 400;
   text-transform: uppercase;
-  color: #f75759;
+  color: grey;
 }
 h5 {
   padding: 10px 0 0 0;
@@ -127,6 +127,9 @@ p {
 }
 .blue {
   color: #256df4;
+}
+.grey {
+  color: grey;
 }
 .txt-light {
   color: #f7f6f1;
@@ -199,6 +202,7 @@ a:active {
   margin: 0;
   padding: 0 20px 50px 20px;
 }
+
 .row-pl-40 {
   margin: 0;
   padding: 50px 20px 0 20px;
@@ -485,12 +489,12 @@ Medium devices (640px and larger)
   }
   .row {
     margin: 0;
-    padding: 60px 20px 60px 20px;
+    padding: 40px 20px 40px 20px;
     text-align: left;
   }
   .row-pb-0 {
     margin: 0;
-    padding: 80px 0 0 40px;
+    padding: 40px 0 0 40px;
   }
   .row-pt-0 {
     margin: 0;
@@ -647,7 +651,7 @@ Large devices (1024px and larger)
   }
   .row-pb-0 {
     margin: 0;
-    padding: 100px 0 0 20px;
+    padding: 60px 0 0 40px;
   }
   #head .row {
     padding: 30px 0 100px 0;
