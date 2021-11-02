@@ -125,6 +125,9 @@ p {
 .sand {
   background-color: #fcfbf6;
 }
+.blue {
+  color: #256df4;
+}
 .txt-light {
   color: #f7f6f1;
 }
@@ -373,7 +376,7 @@ footer ul {
 .col-sm-6 {
   width: 50%;
 }
-.wally-illustration {
+.wally-animation {
   width: 100%;
   max-width: 100%;
   height: auto;
